@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>नव वर्ष की शुभकामनाएं</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&family=Noto+Serif+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #1a1a1a, #000);
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px 80px;
+    }
+
+    /* Profile Section */
+    .profile {
+      text-align: center;
+      margin-bottom: 50px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .profile img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #ffd700;
+      box-shadow: 0 0 25px rgba(255,215,0,0.6);
+      margin-bottom: 20px;
+    }
+
+    .year {
+      font-size: 70px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      background: linear-gradient(90deg, #ffd700, #ffb347, #ffd700);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 2.5s infinite alternate;
+    }
+
+    .profile h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 38px;
+      margin-top: 10px;
+    }
+
+    /* Cards Section */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: linear-gradient(145deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 25px 22px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.7);
+      animation: slideUp 1.3s ease;
+    }
+
+    .card h2 {
+      font-family: 'Noto Serif Devanagari', serif;
+      font-size: 22px;
+      color: #ffd700;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-family: 'Noto Serif Devanagari', serif;
+      font-size: 16px;
+      line-height: 1.9;
+      color: #e6e6e6;
+    }
+
+    .from {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #ffd700;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+      color: #bbbbbb;
+    }
+
+    /* Decorative dots */
+    .decor {
+      position: fixed;
+      width: 8px;
+      height: 8px;
+      background: #ffd700;
+      border-radius: 50%;
+      animation: float 6s linear infinite;
+      opacity: 0.7;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px rgba(255,215,0,0.4); }
+      to { text-shadow: 0 0 25px rgba(255,215,0,0.9); }
+    }
+
+    @keyframes float {
+      from { transform: translateY(110vh) scale(0.6); }
+      to { transform: translateY(-10vh) scale(1.2); }
+    }
+
+    @media (max-width: 480px) {
+      .year { font-size: 52px; }
+      .profile h1 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating decorations -->
+  <span class="decor" style="left:8%; animation-delay:0s;"></span>
+  <span class="decor" style="left:22%; animation-delay:1s;"></span>
+  <span class="decor" style="left:45%; animation-delay:2s;"></span>
+  <span class="decor" style="left:65%; animation-delay:0.5s;"></span>
+  <span class="decor" style="left:80%; animation-delay:1.5s;"></span>
+
+  <div class="container">
+
+    <!-- Profile -->
+    <div class="profile">
+      <!-- Replace image.jpg with your father's photo -->
+      <img src="papa.jpeg" alt="Pankaj Singh">
+      <div class="year">2026</div>
+      <h1>नव वर्ष की हार्दिक शुभकामनाएं</h1>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+      <div class="card">
+        <h2>नई शुरुआत</h2>
+        <p>
+          यह नया साल आपके जीवन में नई उम्मीदें, नई ऊर्जा और
+          नई मुस्कान लेकर आए। हर दिन खुशियों से भरा हो और
+          हर सपना पूरा हो।
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>सुनहरी यादें</h2>
+        <p>
+          बीते साल की यादें हमारे दिलों में हमेशा रहेंगी —
+          वो हंसी, वो साथ, और वो खूबसूरत पल
+          जो जिंदगी को खास बना गए।
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>For My Loved Ones</h2>
+        <p>
+          Thank you for being a part of my life.
+          Your love, support, and blessings mean everything.
+          Let’s create more beautiful memories together.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>दुआ और आशीर्वाद</h2>
+        <p>
+          ईश्वर से यही प्रार्थना है कि आप सभी
+          हमेशा स्वस्थ, सुरक्षित और प्रसन्न रहें।
+          आपके जीवन में कभी खुशियों की कमी न हो।
+        </p>
+      </div>
+    </div>
+
+    <div class="from">— स्नेह सहित<br> पंकज सिंह</div>
+    <footer>
+      अपने सभी मित्रों, रिश्तेदारों और प्रियजनों के लिए
+    </footer>
+
+  </div>
+
+</body>
+</html>
